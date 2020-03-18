@@ -15,14 +15,79 @@
             <li>Segundo item</li>
         </ul>
 
-        <input>
-
-        <textarea cols="30" rows="10"></textarea>
+       
 
         <button>Hola</button>
 
         <br>
         <br>
+
+        <input type="password" maxlength="5">
+
+        <form action="miformulario.com/form">
+            <h2>Formulario de nombre de Doges</h2>
+            <input type="hidden" name="id" value="123">
+            <br>
+            <label>
+                Nombre de tu Doge
+            <input type="text" name="nombre" id="doge-name" placeholder="Nombre de tu doge">
+            </label>
+            <br>
+
+            <label>
+                Apellido de tu Doge
+            <input type="text" name="apellido" id="doge-lastname" placeholder="Apellido de tu doge">
+            </label>
+            <br>
+
+            <h3>Color de la lengua de tu Doge</h3>
+            <label>
+                <input type="radio" name="tongue-color" value="red">Rojo
+            </label>
+
+            </label>
+            <input type="radio" name="tongue-color" value="red">Verde
+            </label>
+            <br>
+
+            <h3>Tipo de alimento de esta bestia</h3>
+            <label>
+              <input type="checkbox" value="balanceado"> 
+              Balanceado
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" value="común"> 
+                Común nomás
+              </label>
+              <br>
+                <br>
+
+            <label>
+                Contextura del Doge
+                <select name="doge-fatness">
+                    <option value="Flaquito">Flaquito</option>
+                    <option value="Rellenito">Rellenito</option>
+                    <option value="Más o menos">Más o menos</option>
+                </select>
+            </label>
+            <br>
+            <br>
+
+            <label>
+                Foto del Doge
+                <input type="file" accept=".jpg,.png,.bmp"
+            </label>
+            <br>
+            <br>
+            <textarea cols="30" rows="10" readonly>Es un perro muy copado
+            </textarea>
+
+            <br>
+
+        <input type="submit" value="Enviar la información de mi doge">
+        </form>
        
         <div style="background-color: coral;">
             <a href="google.com">Google</a> 
