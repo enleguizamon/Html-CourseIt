@@ -1,0 +1,53 @@
+body{
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+h1{
+    font-family: kanit;
+    font-weight: lighter;
+    font-size: 50px;
+    line-height: 54px;
+    margin-bottom: 15px;
+    color:#1B2631;
+}
+
+span{
+    font-family: Merriweather;
+    font-size: 12px;
+    font-weight: light;
+    color:#839192;
+}
+
+p{
+   font-family: Merriweather;
+   font-size: 14px;
+   line-height: 27px;
+   color: #424949;
+   font-weight: 570; 
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+#ReadOn{  
+    height: 37px;
+    width: 120px;
+    background-color: #CB4335;
+    font-family: kanit;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+    margin-right: 10px;
+}
+
+#ReadLater{
+    height: 37px;
+    width: 120px;
+    background-color: white;
+    font-family: kanit;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #CB4335;
+    border-color : #CB4335;
+}
