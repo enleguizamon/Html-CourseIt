@@ -1,0 +1,71 @@
+.wapper {
+    position: relative;
+  }
+  
+  .article-wapper {
+    background-color: #ddd;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .article {
+    padding: 1em;
+    flex-grow: 1;
+    flex-shirnk: 1;
+    flex-bases: 200px;
+    font-family: helvetica neue;
+    color: #ffffff;
+  }
+  
+  .horizontal-bar {
+    text-align: center;
+    background-color: #ddd;
+    font-size: 10px;
+    font-family: helvetica neue;
+  }
+  
+  .img-content {
+    float: right;
+    height: 13px;
+  }
+  
+  .date {
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .content {
+    margin-bottom: 200px;
+    font-size: 12px;
+  }
+  
+  .read {
+    font-size: 10px;
+  }
+  
+  .art1 {
+    background-color: #3399ff;
+  }
+  
+  .art2 {
+    background-color: #993333;
+  }
+  
+  .art3 {
+    background-color: #ff794d;
+  }
+  
+  .art4 {
+    background-color: #004d99;
+  }
+  
+  .art5 {
+    background-color: #ff4d4d;
+  }
+  
+  .art6 {
+    background-color: #a3c2c2;
+  }
