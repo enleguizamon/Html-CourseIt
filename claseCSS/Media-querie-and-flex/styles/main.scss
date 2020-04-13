@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+$tablet-breakpoint: 768px;
+$mobile-breakpoint: 600px;
+$tinymobile-breakpoint: 425px;
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    .container {
+        display: flex;
+        flex-shrink: 1;
+        @media (max-width: $mobile-breakpoint) {
+            flex-direction: column;
+        }
+        .aside {
+            background-color: lightgrey;
+            min-width: 20%;
+            padding: 0px 20px;
+            flex-shrink: 1;
+            @media (max-width: $mobile-breakpoint) {
+                min-width: 100%;
+                padding: 10px;
+            }
+            .categories {
+                display: flex;
+                    flex-direction: column;
+                    flex-shrink: 0;
+                    max-width: 98%;
+                .cat {
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: white;
+                    margin: 0 5px 10px 0px;
+                    border-radius: 10px;
+                    padding: 3px 10px;
+                }
+            }
+        }
+        .macbook-section {
+            background-color: lightgrey;
+            width: 80%;
+            flex-wrap: wrap;
+            @media (max-width: $mobile-breakpoint) {
+                min-width: 100%;
+                padding: 10px;
+            }
+            .images-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                flex-grow: 1;
+
+                .img-wrapper {
+                    width: calc(33% - 20px);
+                    background-color: white;
+                    margin: 5px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    padding-bottom: 10px;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                    @media (max-width: $tablet-breakpoint) {
+                        width: calc(50% - 20px);
+                    }
+                    @media (max-width: $tinymobile-breakpoint) {
+                        width: calc(100% - 20px);
+                    }
+                    .img {
+                        width: 100%;
+                        height: 200px;
+                        background-image: url(https://cnet3.cbsistatic.com/img/yjrw7VgWV7a95AvK8Ym0Np4bFXY=/1200x675/2017/06/27/13484418-bfd9-41e2-8f2d-9b4afb072da8/apple-macbook-pro-15-inch-2017-14.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .description {padding: 0px 20px;
+                        line-height: 3px;
+                    }
+                    .price {
+                            text-decoration: none;
+                            color: grey;
+                            padding: 0px 30px;
+                            line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 0px 30px;
+        .footer-info {
+        color: grey;
+        font-size: 0.8em;
+        }
+        .icons { 
+           .fa {
+               color: grey;
+               margin: 0px 10px 0px 0px;
+               border-radius: 50%;
+               background-color: lightgrey;
+               height: 20px;
+               width: 20px;
+               padding: 3px;
+               text-align: center;
+           }
+        }
+    }
+}
